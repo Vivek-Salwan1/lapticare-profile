@@ -121,8 +121,13 @@ h1 {
 #brand-carousel {
     text-align: center;
     /* background-color: #fff; */
-    border-radius: 10px;
     margin: 0 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.188);
+    padding: 10px 0px;
+    border: 1px solid rgb(180, 180, 204);
+
+
 }
 
 .carousel-container {
@@ -130,7 +135,7 @@ h1 {
     overflow: hidden;
     position: relative;
     /* border: 1px solid #acacac; */
-    background-color: #fff;
+
     padding: 10px 0;
 
     border-radius: 10px;
@@ -203,8 +208,11 @@ section{
 
 .about-us {
     margin: 10px 20px;
-    background: rgba(255, 255, 255, 0); /* Semi-transparent background */
+    background: rgba(255, 255, 255, 0.188); /* Semi-transparent background */
     backdrop-filter: blur(10px); /* Glass blur effect */
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(180, 180, 204);
 
    
 }
@@ -216,7 +224,7 @@ section{
     border-radius: 10px;
     padding: 20px;
     line-height: 1.5;
-    color: #0e1d4a;
+    color: #000618;
 
 
 }
@@ -230,7 +238,7 @@ section{
 
 
 .about-us p span {
-    color: black;
+    color: rgb(50, 51, 99);
     font-weight: 600;
 
 
@@ -244,6 +252,12 @@ section{
 
 .services{
     margin: 10px 20px;
+    border: 1px solid rgb(180, 180, 204);
+    padding: 10px 10px;
+    background: rgba(255, 255, 255, 0.295); 
+    border-radius: 10px;
+    border: 1px solid rgb(180, 180, 204);
+    
 }
 
 .services-cards {
@@ -301,6 +315,9 @@ section{
     text-align: center;
     margin: 0 15px;
     border-radius: 10px;
+    background: rgba(255, 255, 255, 0.188);
+    padding: 10px 0px;
+    border: 1px solid rgb(180, 180, 204);
 }
 
 #testimonials .container p {
@@ -319,7 +336,7 @@ section{
 }
 
 .testimonial-item {
-    background: rgba(255, 255, 255, 0.86); /* Semi-transparent background */
+    background: rgba(255, 255, 255, 0.188);
     border-radius: 10px;
     padding: 20px;
     border: 1px solid #353535;
@@ -357,10 +374,18 @@ section{
 /* Contact section */
 #contact-us {
     margin: 10px 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.188);
+    padding: 10px 0px;
+    border: 1px solid rgb(180, 180, 204);
+}
+
+#contact-us h3{
+    color: rgb(1, 1, 242);
 }
 
 #contact-us .container {
-    background: rgba(255, 255, 255, 0.782); /* Semi-transparent background */
+    /* background: rgba(255, 255, 255, 0.782);  */
     box-shadow: 0 2px 2px rgba(103, 102, 102, 0.49);
     border-radius: 10px;
     padding: 20px;
